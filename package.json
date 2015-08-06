@@ -9,8 +9,8 @@
   "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
   "license": "ISC",
   "dependencies": {
+    "JSONStream": "^1.0.4",
     "colors": "^1.1.0",
-    "jsonstream": "^1.0.3",
     "lodash": "^3.9.2",
     "reconnect-core": "^1.0.1",
     "split": "^1.0.0",
