@@ -9,7 +9,7 @@ var split = require('split');
 var persistentHTTPStream = require('./lib/persistentHTTPStream');
 var settings = require('./settings');
 
-var rowWidth = 80;
+var rowWidth = 160;
 try {
   rowWidth = process.stdout.getWindowSize()[0];
 } catch(e) {}
