@@ -1,0 +1,20 @@
+{
+  "name": "tradingviewscrape",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Reed <samuel.trace.reed@gmail.com> (http://strml.net/)",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.0",
+    "jsonstream": "^1.0.3",
+    "lodash": "^3.9.2",
+    "reconnect-core": "^1.0.1",
+    "split": "^1.0.0",
+    "superagent": "^1.2.0",
+    "through2": "^2.0.0"
+  }
+}
