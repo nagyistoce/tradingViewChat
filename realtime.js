@@ -9,7 +9,10 @@ var split = require('split');
 var persistentHTTPStream = require('./lib/persistentHTTPStream');
 var settings = require('./settings');
 
-var rowWidth = process.stdout.getWindowSize()[0];
+var rowWidth = 80;
+try {
+  rowWidth = process.stdout.getWindowSize()[0];
+} catch(e) {}
 
 function init(channel) {
   var TVStream = persistentHTTPStream(settings.endpoint, settings.headers)
